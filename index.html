@@ -14,5 +14,29 @@
             </div>
         </div>
         </section>
+        <script>
+            function bubbles(){
+                var count = 200;
+                var section = document.querySelector('section');
+                var i = 0;
+                while (i < count){
+                    var bubble = document.createElement('i');
+                    var x = Math.floor(math.random() * window.
+                    innerWidth);
+                    var y = math.floor(math.random() * window.
+                    innerHeight);
+                    
+                    var size = math.random() * 10;
+                    bubble.style.left = x+'px';
+                    bubble.style.top = y+'px';
+                    bubble.style.width = 1+size+'px';
+                    bubble.style.width = 1+size+'px';
+
+                    section.appendChild(bubble);
+                    i++ 
+                }
+            }
+            bubbles()
+        </script>
     </body>
 </html>
