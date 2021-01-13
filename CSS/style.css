@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
-
 *
 {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-        font-family: 'Satisfy', cursive;
+    font-family: 'Satisfy', cursive;
 }
 
 body
@@ -34,7 +33,7 @@ section .box .circle
     position: relative;
     width: 100%;
     height: 100%;
-    background: linear-gradient(135deg, #fff, e4e3e8);
+    background: linear-gradient(135deg, #fff, #e4e3e8);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,7 +49,7 @@ section .box .circle::before
     left: 5px;
     right: 5px;
     bottom: 5px;
-    background: linear-gradient(315deg, #fff, e4e3e8);
+    background: linear-gradient(315deg, #fff, #e4e3e8);
     border-radius: 50%;
 }
 
@@ -61,4 +60,4 @@ section .box .circle h2
     font-size: 4em;   
     color: #ff2a2a;
     text-align: center;
-}  
+}
