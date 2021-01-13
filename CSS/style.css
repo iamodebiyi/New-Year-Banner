@@ -74,4 +74,42 @@ section .box .circle h2
     font-size: 4em;   
     color: #ff2a2a;
     text-align: center;
-} 
+}
+
+section i
+{
+    position: absolute;
+    background: #000;
+    border-radius: 100%;
+    animation: animate linear infinte;
+}  
+
+section i:nth-child(even)
+{
+    background: transparent;
+    border: 1px solid #ff2a2a;
+}
+@keyframes animate
+{
+    0%
+    {
+        transform: translateY(0);
+        opacity: 0;
+    }
+    
+    10%
+    {
+        opacity: 1;
+    }
+
+    90%
+    {
+        opacity: 1;
+    }
+    
+    100%
+    {
+        transform: translateY(-2000%);
+        opacity: 0;
+    }
+}

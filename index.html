@@ -14,6 +14,9 @@
             </div>
         </div>
         </section>
+
+
+<!-- script code -->
         <script>
             function bubbles(){
                 var count = 200;
@@ -21,17 +24,20 @@
                 var i = 0;
                 while (i < count){
                     var bubble = document.createElement('i');
-                    var x = Math.floor(math.random() * window.
+                    var x = Math.floor(Math.random() * window.
                     innerWidth);
-                    var y = math.floor(math.random() * window.
+                    var y = Math.floor(Math.random() * window.
                     innerHeight);
                     
-                    var size = math.random() * 10;
+                    var size = Math.random() * 10;
                     bubble.style.left = x+'px';
                     bubble.style.top = y+'px';
                     bubble.style.width = 1+size+'px';
-                    bubble.style.width = 1+size+'px';
+                    bubble.style.height = 1+size+'px';
 
+                    bubble.style.animationDuration =  5+size+'s';
+                    bubble.style.animationDelay = -size+'s';
+                    
                     section.appendChild(bubble);
                     i++ 
                 }
