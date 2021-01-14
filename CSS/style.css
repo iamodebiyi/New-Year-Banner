@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
 *
 {
     margin: 0;
@@ -72,7 +73,7 @@ section .box .circle h2
     position: absolute;
     z-index: 2;
     font-size: 4em;   
-    color: #ff2a2a;
+    color: #ff2a2a; 
     text-align: center;
 }
 
@@ -81,7 +82,7 @@ section i
     position: absolute;
     background: #000;
     border-radius: 100%;
-    animation: animate linear infinte;
+    animation: animate 5slinear infinte;
 }  
 
 section i:nth-child(even)
@@ -90,6 +91,7 @@ section i:nth-child(even)
     border: 1px solid #ff2a2a;
 }
 @keyframes animate
+
 {
     0%
     {
@@ -113,3 +115,5 @@ section i:nth-child(even)
         opacity: 0;
     }
 }
+
+/* ATTEMPT TO CHANGE FIRST TRANSLATION TO X*/ 
